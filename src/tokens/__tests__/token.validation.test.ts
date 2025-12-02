@@ -1,4 +1,4 @@
-import { createTokenSchema, getTokensSchema } from '../validation/token';
+import { createTokenSchema, getTokensSchema } from '@/tokens/token.validation';
 import { ZodError } from 'zod';
 
 describe('Validation Schemas', () => {

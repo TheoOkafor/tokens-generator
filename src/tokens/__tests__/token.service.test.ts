@@ -3,8 +3,8 @@ import {
   calculateExpiryDate,
   isTokenExpired,
   serializeToken,
-} from '../service/token-service';
-import type { Token } from '../types/token';
+} from '../token.service';
+import type { Token } from '@/tokens/token.type';
 
 // Mock Prisma Client to avoid database dependency in unit tests
 jest.mock('@/lib/db', () => ({
